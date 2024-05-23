@@ -1,3 +1,3 @@
 import streamlit as st
 
-print(st.secrets['some_section']['password'])
+st.write(st.secrets['some_section']['password'])
